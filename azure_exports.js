@@ -3788,9 +3788,4 @@
   function createKey(key) {
     return key.startsWith("Bearer ") ? key : `Bearer ${key}`;
   }
-
-  // app.jsx
-  var endpoint = "https://pretestllmgpt4.openai.azure.com/";
-  var credential = new browser_exports("3285d8ee4041427c98424868a0df594f");
-  var client = new src_exports(endpoint, credential);
 })();
